@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa';
+}
+
+nav{
+    padding: 2rem;
+    color: #2d3436;
+    -webkit-box-shadow: 0px 7px 10px -1px #636e72; 
+    box-shadow: 0px 7px 10px -1px #636e72;
+}
+
+.nav-header{
+    display: flex;
+}
+
+button{
+  width: 2em;
+  height: 1.5em;
+}
+
+li{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 2em;
+}
+
+.social-icons{
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.social-icons i{
+    list-style: none;
+    color: #00b894;
+    /* visibility: hidden; */
+}
+
+@media (max-width:460px){
+    .social-icons i{
+        display: none;
+    }
+}
+
+.hide-links{
+    display: none;
+}
+
